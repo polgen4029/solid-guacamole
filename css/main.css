@@ -3268,12 +3268,12 @@ p {
     .introwave {
         position: absolute;
         top:-98.4px;
+        left:0;
         width: 100vw;
         height: 98.4px;
         background-image: url("../svg/Wave_Top.svg");
         object-fit: contain;
 
-        margin-left: 0;
     }
 
  
@@ -4101,8 +4101,8 @@ p {
     object-fit: cover;
     position: absolute;
     top:-98.4px;
+    left:0;
 
-    margin-left: 0;
 }
 .placecontenttop{
 
@@ -4334,7 +4334,7 @@ th, td {
     position: absolute;
     top:-98.4px;
 
-    margin-left: 0;
+    left: 0;
 }
 
 .works{
