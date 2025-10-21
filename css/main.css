@@ -3268,8 +3268,8 @@ p {
     .introwave {
         position: absolute;
         top:-98.4px;
-        padding-left:0;
-        width: 100vw;
+        left:-1px;
+        width: 550px;
         height: 98.4px;
         background-image: url("../svg/Wave_Top.svg");
         object-fit: contain;
@@ -4095,13 +4095,13 @@ p {
     
 }
 .placewave{
-    width: 105vw;
+    width: 550px;
     height: 98.4px;
     background-image: url(../svg/Wave_Vibe.svg);
     object-fit: cover;
     position: absolute;
     top:-98.4px;
-    padding-left:0;
+    left:-1px;
 
 }
 .placecontenttop{
@@ -4327,14 +4327,14 @@ th, td {
 }
 
 .workwave{
-    width: 105vw;
+    width: 550px;
     height: 98.4px;
     background-image: url(../svg/Wave_Work.svg);
     object-fit: cover;
     position: absolute;
     top:-98.4px;
 
-    padding-left: 0;
+    left: -1px;
 }
 
 .works{
