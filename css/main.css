@@ -3045,12 +3045,12 @@ p {
     }
 
    .title img {
-    position: absolute;
-    width: 100vw;
-    height: 900px;
-    object-fit: cover;
+        position: absolute;
+        width: 100vw;
+        height: 900px;
+        object-fit: cover;
 
-    z-index: 0;
+        z-index: 0;
 
    }
 
