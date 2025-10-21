@@ -12,7 +12,7 @@
 
 
 
-function FadeContent () {
+function FadeContentDesc () {
     const currentScrollY = window.pageYOffset;
     const currentWindowHeight = window.innerHeight;
 
@@ -49,6 +49,35 @@ function FadeContent () {
 
 
 
+function FadeContentMob () {
+    const currentScrollY = window.pageYOffset;
+    const currentWindowHeight = window.innerHeight;
+
+    const fadeWhy = document.getElementById("why");
+    const titlechar = document.querySelectorAll(".Mix_T");
+    const introarticle = document.getElementById("main");
+
+
+    //NUMSIL 글자들 나타나기
+    if (currentScrollY > (currentWindowHeight*0.3)) {
+        titlechar.forEach(titlechar =>
+        {titlechar.classList.add("visible")}
+        )
+    } else {
+        titlechar.forEach(titlechar =>
+        {titlechar.classList.remove("visible")}
+        );
+    }
+
+    
+    //소개글 나타나기
+    if (currentScrollY > (currentWindowHeight/2)) {
+        introarticle.classList.add("visible");
+    } else {
+        introarticle.classList.remove("visible");
+    }
+}
+
 
 
 function ScrollAniContent () {
@@ -58,11 +87,11 @@ function ScrollAniContent () {
     const titlechar = document.querySelectorAll(".Mix_T");
     
     
-    if (currentScrollY > (currentWindowHeight*0.4)) {
+    if (currentScrollY > (currentWindowHeight*0.3)) {
         for(i=0;i<titlechar.length;i++) {
             titlechar[i].classList.add(`ani${i}`)
         }
-    } else {
+    } else if (currentScrollY === 0) {
         for(i=0;i<titlechar.length;i++) {
             titlechar[i].classList.remove(`ani${i}`)
         }
@@ -101,14 +130,14 @@ function titleScrollTop () {
         const currentWindowHeight = window.innerHeight;
         const currentWindowWidth = window.innerWidth;
 
-
-        FadeContent();
         ScrollAniContent();
-        
+        FadeContentDesc();
 
         if((currentWindowWidth>500 && currentScrollY<currentWindowHeight)) {
         
         titleScrollOpacity();
+        titleScrollTop
+        
 
         
         }
