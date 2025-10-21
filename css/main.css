@@ -2905,8 +2905,8 @@ th, td {
     align-items: flex-start;
     justify-content: center;
 
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: calc(var(--vh, 1vh) * 10);
+    margin-bottom: calc(var(--vh, 1vh) * 10);
 }
 .disco{
     display: grid;
@@ -2995,7 +2995,7 @@ p {
     font-size: 1rem;
     text-align: left;
     line-height: 1.5;
-    padding: 3vh;
+    padding: calc(var(--vh, 1vh) * 3);
 
     color:grey;
 
@@ -3038,7 +3038,7 @@ p {
         position: fixed;
         width: 110vw;
         margin-left: -5vw;
-        height: 110vh;
+        height: calc(var(--vh, 1vh) * 110);
 
         display: flex;
         justify-content: center;
@@ -3061,7 +3061,7 @@ p {
 
         z-index: 1;
 
-        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
         width: 100vw;
 
         perspective: 1000px;
@@ -3249,7 +3249,7 @@ p {
 
     .studiomoto{
         
-        top:100vh;
+        top:calc(var(--vh, 1vh) * 100);
         position: relative;
         width: 100vw;
         
@@ -3905,7 +3905,7 @@ p {
 
     word-break: keep-all;
     padding:50px;
-    top: 60vh;
+    top: calc(var(--vh, 1vh) * 60);
     font-size: 0.6rem;
 
     text-align: left;
@@ -3916,15 +3916,15 @@ p {
     opacity: 0;
     
     transition-duration: 0.4s;
-    transform: translateY(1.5vh);
+    transform: translateY(calc(var(--vh, 1vh) * 1.5));
 
-    margin-bottom: 15vh;
+    margin-bottom: calc(var(--vh, 1vh) * 15);;
 
 }
 .mainarticle.visible {
     opacity: 1;
     transition-duration: 2s;
-    transform: translateY(-1.5vh);
+    transform: translateY(calc(var(--vh, 1vh) * (-1.5)));
 }
 
 .studio-introphoto {
@@ -3933,13 +3933,13 @@ p {
     justify-content: flex-start;
     align-items: center;
 
-    margin-bottom: 30vh;
+    margin-bottom: calc(var(--vh, 1vh) * 30);
     
 }
 
 .studio-introphoto img {
     width: 100vw;
-    height: 30vh;
+    height: calc(var(--vh, 1vh) * 30);;
     object-fit: cover;
 }
 
@@ -4080,7 +4080,7 @@ p {
 
 .introimg{
     width: 100vw;
-    height: 34vh;
+    height: calc(var(--vh, 1vh) * 34);
     
 
     margin: 0;
@@ -4105,7 +4105,7 @@ p {
 
     background-color: #E62727;
     width: 100vw;
-    height: 110vh;
+    height: calc(var(--vh, 1vh) * 110);;
 
     position:relative;
 
@@ -4231,7 +4231,7 @@ p {
 }
 
 .gearlistchild {
-    padding-top: 2vh;
+    padding-top: calc(var(--vh, 1vh) * 2);;
     padding-left: 2vw;
     padding-right: 2vw;
 
@@ -4260,9 +4260,9 @@ p {
 
 .ratemenu {
     position:absolute;
-    padding-top: 5vh;
+    padding-top: calc(var(--vh, 1vh) * 5);;
 
-    margin-bottom: 10vh;
+    margin-bottom: calc(var(--vh, 1vh) * 10);;
 
     top: 0;
     left: 0;
@@ -4303,7 +4303,7 @@ table {
 
 th, td {
   border: 0.5px solid #F3F2EC;
-  padding: 2vh;
+  padding: calc(var(--vh, 1vh) * 2);
   text-align: center;
 
   font-weight: 300;
@@ -4321,7 +4321,7 @@ th, td {
 .ratenotification{
 
     padding-left: 3vw;
-    padding-top: 1.5vh;
+    padding-top: calc(var(--vh, 1vh) * 1.5);;
     width: 70vw;
     font-size: 0.7rem;
     text-align: left;
@@ -4365,7 +4365,7 @@ th, td {
     flex-direction: column;
     align-items: center;
 
-    margin-top: 10vh;
+    margin-top: calc(var(--vh, 1vh) * 10);;
 
 }
 .firstcol{
@@ -4400,7 +4400,7 @@ th, td {
 
     left: 50%;
 
-    margin-bottom: 20vh;
+    margin-bottom: calc(var(--vh, 1vh) * 20);;
     
    
 }
@@ -4482,7 +4482,7 @@ p {
     font-size: 1rem;
     text-align: left;
     line-height: 1.5;
-    padding: 3vh;
+    padding: calc(var(--vh, 1vh) * 3);;
 
     color:grey;
 
