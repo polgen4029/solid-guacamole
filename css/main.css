@@ -3037,7 +3037,7 @@ p {
     .title{
         position: fixed;
         width: 100vw;
-        height: 900px;
+        height: 100dvh;
 
         display: flex;
         justify-content: center;
@@ -3047,7 +3047,7 @@ p {
    .title img {
         position: absolute;
         width: 100vw;
-        height: 900px;
+        height: 100dvh;
         object-fit: cover;
 
         z-index: 1;
@@ -3056,11 +3056,10 @@ p {
 
     .title-background {
         position: absolute;
-        left: 5vw;
 
         z-index: 1;
 
-        height: 900px;
+        height: 100dvh;
         width: 100vw;
 
         perspective: 1000px;
