@@ -3027,7 +3027,7 @@ p {
         align-items: center;
         justify-content: flex-start;
 
-        overscroll-behavior-y:contain ;
+        overscroll-behavior-y:c ontain ;
     }
 
     body.visible {
@@ -3046,8 +3046,8 @@ p {
 
    .title img {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 900px;
     object-fit: cover;
 
     z-index: 0;
