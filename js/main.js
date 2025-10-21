@@ -96,40 +96,21 @@ function titleScrollTop () {
 
 
 
-{       
-    window.addEventListener('scroll', () => {
-
+{ window.addEventListener("scroll" ,() => {
         const currentScrollY = window.pageYOffset
         const currentWindowHeight = window.innerHeight;
+        const currentWindowWidth = window.innerWidth;
+
 
         FadeContent();
         ScrollAniContent();
-    
-
-        if((currentScrollY<currentWindowHeight)) {
-        titleScrollTop();
-        titleScrollOpacity();
-        }
-    `   `
         
-       
-   
-    });
-}
 
-
-
-{ window.addEventListener("scroll" ,() => {
-    const currentScrollY = window.pageYOffset
-        const currentWindowHeight = window.innerHeight;
-
-        FadeContent();
-        ScrollAniContent();
-    
-
-        if((currentScrollY<currentWindowHeight)) {
-        titleScrollTop();
+        if((currentWindowWidth>500 && currentScrollY<currentWindowHeight)) {
+        
         titleScrollOpacity();
+
+        
         }
 })}
 
