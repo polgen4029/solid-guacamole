@@ -3027,7 +3027,6 @@ p {
         align-items: center;
         justify-content: flex-start;
 
-        overscroll-behavior-y:c ontain ;
     }
 
     body.visible {
