@@ -3010,7 +3010,7 @@ p {
 
     body {
         background-color:#F3F2EC;
-        width: 100dvw;
+        width: 100vw;
         opacity: 0;
         transition: opacity 0.5s ease;
 
@@ -3352,6 +3352,7 @@ p {
 
     animation: FadeStrong 0.6s forwards;
     margin-left:0;
+    margin-top: 30px;
 
     position: relative;
     z-index: 5;
@@ -3895,6 +3896,8 @@ p {
 
     margin-bottom: -50px;
     margin-top: 50px;
+
+    display: none;
 }
 .why.visible{
     opacity: 1;
@@ -3904,27 +3907,26 @@ p {
 .mainarticle {
 
     word-break: keep-all;
-    padding:50px;
-    top: calc(var(--vh, 1vh) * 60);
+    width:260px;
     font-size: 0.6rem;
 
     text-align: left;
 
-    font-weight: 100;
+    font-weight: 200;
     line-height: 200%;
     
     opacity: 0;
     
     transition-duration: 0.4s;
-    transform: translateY(calc(var(--vh, 1vh) * 1.5));
+    transform: translateY(80px);
 
-    margin-bottom: calc(var(--vh, 1vh) * 15);;
+    margin-bottom: 100px;
 
 }
 .mainarticle.visible {
     opacity: 1;
     transition-duration: 2s;
-    transform: translateY(calc(var(--vh, 1vh) * (-1.5)));
+    transform: translateY(-1px);
 }
 
 .studio-introphoto {
@@ -3933,13 +3935,13 @@ p {
     justify-content: flex-start;
     align-items: center;
 
-    margin-bottom: calc(var(--vh, 1vh) * 30);
+    margin-bottom: 200px;
     
 }
 
 .studio-introphoto img {
     width: 100vw;
-    height: calc(var(--vh, 1vh) * 30);;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -4078,34 +4080,12 @@ p {
     opacity: 20%;
 }
 
-.introimg{
-    width: 100vw;
-    height: calc(var(--vh, 1vh) * 34);
-    
-
-    margin: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.introimg:nth-child(1) {
-    background-image: url("../img/studio.jpg");
-    
-}
-
-.introimg:nth-child(2) {
-    background-image: url("../img/engineer2.jpeg");
-}
-
-.introimg:nth-child(3) {
-    background-image: url("../img/Sea.jpg");
-}
-
 
 .placecontent {
 
     background-color: #E62727;
     width: 100vw;
-    height: calc(var(--vh, 1vh) * 110);;
+    height: 1000px;
 
     position:relative;
 
@@ -4231,7 +4211,7 @@ p {
 }
 
 .gearlistchild {
-    padding-top: calc(var(--vh, 1vh) * 2);;
+    padding-top: 10px;
     padding-left: 2vw;
     padding-right: 2vw;
 
@@ -4260,9 +4240,7 @@ p {
 
 .ratemenu {
     position:absolute;
-    padding-top: calc(var(--vh, 1vh) * 5);;
 
-    margin-bottom: calc(var(--vh, 1vh) * 10);;
 
     top: 0;
     left: 0;
@@ -4303,7 +4281,7 @@ table {
 
 th, td {
   border: 0.5px solid #F3F2EC;
-  padding: calc(var(--vh, 1vh) * 2);
+  padding: 10px;
   text-align: center;
 
   font-weight: 300;
@@ -4320,10 +4298,12 @@ th, td {
 }
 .ratenotification{
 
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding-left: 3vw;
-    padding-top: calc(var(--vh, 1vh) * 1.5);;
-    width: 70vw;
-    font-size: 0.7rem;
+    padding-top: 10px;
+    width:85vw;
+    font-size: 0.6rem;
     text-align: left;
 
     line-height: 1.7;
@@ -4365,7 +4345,7 @@ th, td {
     flex-direction: column;
     align-items: center;
 
-    margin-top: calc(var(--vh, 1vh) * 10);;
+    margin-top: 30px;
 
 }
 .firstcol{
@@ -4400,7 +4380,7 @@ th, td {
 
     left: 50%;
 
-    margin-bottom: calc(var(--vh, 1vh) * 20);;
+    margin-bottom: 100px;
     
    
 }
