@@ -3050,7 +3050,7 @@ p {
         height: 900px;
         object-fit: cover;
 
-        z-index: 0;
+        z-index: 1;
 
    }
 
