@@ -3038,7 +3038,7 @@ p {
         position: fixed;
         width: 110vw;
         margin-left: -5vw;
-        height: 110dvh;
+        height: 110vh;
 
         display: flex;
         justify-content: center;
@@ -3061,7 +3061,7 @@ p {
 
         z-index: 1;
 
-        height: 100dvh;
+        height: 100vh;
         width: 100vw;
 
         perspective: 1000px;
@@ -3249,7 +3249,7 @@ p {
 
     .studiomoto{
         
-        top:100dvh;
+        top:100vh;
         position: relative;
         width: 100vw;
         
@@ -3939,7 +3939,7 @@ p {
 
 .studio-introphoto img {
     width: 100vw;
-    height: 30dvh;
+    height: 30vh;
     object-fit: cover;
 }
 
@@ -4080,7 +4080,7 @@ p {
 
 .introimg{
     width: 100vw;
-    height: 34dvh;
+    height: 34vh;
     
 
     margin: 0;
@@ -4105,7 +4105,7 @@ p {
 
     background-color: #E62727;
     width: 100vw;
-    height: 110dvh;
+    height: 110vh;
 
     position:relative;
 
@@ -4260,9 +4260,9 @@ p {
 
 .ratemenu {
     position:absolute;
-    padding-top: 5dvh;
+    padding-top: 5vh;
 
-    margin-bottom: 10dvh;
+    margin-bottom: 10vh;
 
     top: 0;
     left: 0;
@@ -4321,7 +4321,7 @@ th, td {
 .ratenotification{
 
     padding-left: 3vw;
-    padding-top: 1.5dvh;
+    padding-top: 1.5vh;
     width: 70vw;
     font-size: 0.7rem;
     text-align: left;
@@ -4365,7 +4365,7 @@ th, td {
     flex-direction: column;
     align-items: center;
 
-    margin-top: 10dvh;
+    margin-top: 10vh;
 
 }
 .firstcol{
@@ -4400,7 +4400,7 @@ th, td {
 
     left: 50%;
 
-    margin-bottom: 20dvh;
+    margin-bottom: 20vh;
     
    
 }
@@ -4482,7 +4482,7 @@ p {
     font-size: 1rem;
     text-align: left;
     line-height: 1.5;
-    padding: 3dvh;
+    padding: 3vh;
 
     color:grey;
 
