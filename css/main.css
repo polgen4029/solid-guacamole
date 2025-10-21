@@ -3045,7 +3045,7 @@ p {
 
    .title img {
         position: absolute;
-        width: 100vw;
+        width: 100svw;
         height: 100svh;
         object-fit: cover;
 
@@ -3059,7 +3059,7 @@ p {
         z-index: 1;
 
         height: 100svh;
-        width: 100vw;
+        width: 100svw;
 
         perspective: 1000px;
 
@@ -3109,7 +3109,7 @@ p {
         align-items: center;
         justify-content: center;
 
-        margin-bottom: 11vw;
+        margin-bottom: 11svw;
         margin-left: 110px;
 
         opacity: 0;
@@ -3245,9 +3245,9 @@ p {
 
     .studiomoto{
         
-        top:100dvh;
+        top:100svh;
         position: relative;
-        width: 100vw;
+        width: 100svw;
         
         background:#FFF9D0;
         margin-top: 98.4px;
@@ -3334,7 +3334,7 @@ p {
 .why-numsil-main-background {
 
 
-    width: 100vw;
+    width: 100svw;
     height: auto;
     background:#FFF9D0;
 
