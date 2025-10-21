@@ -3272,6 +3272,8 @@ p {
         height: 98.4px;
         background-image: url("../svg/Wave_Top.svg");
         object-fit: contain;
+
+        margin-left: 0;
     }
 
  
@@ -4099,6 +4101,8 @@ p {
     object-fit: cover;
     position: absolute;
     top:-98.4px;
+
+    margin-left: 0;
 }
 .placecontenttop{
 
@@ -4329,6 +4333,8 @@ th, td {
     object-fit: cover;
     position: absolute;
     top:-98.4px;
+
+    margin-left: 0;
 }
 
 .works{
@@ -4462,7 +4468,7 @@ p {
     font-size: 1rem;
     text-align: left;
     line-height: 1.5;
-    padding: calc(var(--vh, 1vh) * 3);;
+    padding: 10px;
 
     color:grey;
 
