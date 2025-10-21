@@ -3037,7 +3037,7 @@ p {
     .title{
         position: fixed;
         width: 100vw;
-        height: 100dvh;
+        height: 100svh;
 
         display: flex;
         justify-content: center;
@@ -3047,7 +3047,7 @@ p {
    .title img {
         position: absolute;
         width: 100vw;
-        height: 100dvh;
+        height: 100svh;
         object-fit: cover;
 
         z-index: 1;
@@ -3059,7 +3059,7 @@ p {
 
         z-index: 1;
 
-        height: 100dvh;
+        height: 100svh;
         width: 100vw;
 
         perspective: 1000px;
@@ -3247,7 +3247,7 @@ p {
 
     .studiomoto{
         
-        top:calc(var(--vh, 1vh) * 100);
+        top:100dvh;
         position: relative;
         width: 100vw;
         
