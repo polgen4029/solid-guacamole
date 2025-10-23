@@ -132,15 +132,13 @@ function titleScrollTop () {
 
         ScrollAniContent();
         FadeContentDesc();
-
-        if((currentWindowWidth>500 && currentScrollY<currentWindowHeight)) {
         
         titleScrollOpacity();
-        titleScrollTop
+        titleScrollTop ();
         
 
         
-        }
+        
 })}
 
 {
