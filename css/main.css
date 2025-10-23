@@ -251,8 +251,6 @@
         background-image: url("../svg/Wave_Top.svg");
         background-size: cover;
 
-        scale: 1.1;
-        transform-origin: top;
 
     
     }
@@ -1104,8 +1102,6 @@
     position: absolute;
     top:-94px;
 
-    scale: 1.1;
-    transform-origin: top;
 
 }
 .placecontenttop{
@@ -1332,8 +1328,6 @@ th, td {
     position: absolute;
     top:-94px;
 
-    scale: 1.1;
-    transform-origin: top;
 
 }
 
@@ -1761,8 +1755,6 @@ p {
         background-image: url("../svg/Wave_Top.svg");
         background-size: cover;
 
-        scale: 1.1;
-        transform-origin: top;
         
     }
    
@@ -2404,8 +2396,7 @@ p {
     position: absolute;
     top:-94px;
 
-    scale: 1.1;
-    transform-origin: top;
+
    
 }
 .placecontenttop{
@@ -2634,8 +2625,6 @@ th, td {
     position: absolute;
     top:-94px;
 
-    scale: 1.1;
-    transform-origin: top;
     
 }
 
@@ -3046,8 +3035,7 @@ p {
         background-size: cover;
         z-index: 4;
 
-        scale: 1.1;
-        transform-origin: top;
+    
 
 
     }
@@ -3706,8 +3694,7 @@ p {
     position: absolute;
     top: -94px;
 
-    scale: 1.1;
-    transform-origin: top;
+
     
 
 }
@@ -3950,8 +3937,6 @@ th, td {
     position: absolute;
     top:-94px;
 
-    scale: 1.1;
-    transform-origin: top;
 }
 
 .works{
@@ -4345,8 +4330,7 @@ p {
         background-size: cover;
         z-index: 4;
 
-        scale: 1.1;
-        transform-origin: top;
+    
 
 
     }
@@ -5179,8 +5163,6 @@ p {
     top: -94px;
 
 
-    scale: 1.1;
-    transform-origin: top;
 }
 .placecontenttop{
 
@@ -5413,8 +5395,7 @@ th, td {
     position: absolute;
     top:-94px;
 
-    scale: 1.1;
-    transform-origin: top;
+   
 
 
 }
