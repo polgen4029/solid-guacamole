@@ -10,7 +10,16 @@
 });
 }
 
+/* function TitleResize () {
 
+    const currentWindowWidth = window.innerWidth;
+    const TitleChar = document.querySelector(".title-background");
+
+
+    TitleChar.style.scale = 
+
+
+} */
 
 function FadeContentDesc () {
     const currentScrollY = window.pageYOffset;
@@ -133,8 +142,11 @@ function titleScrollTop () {
         ScrollAniContent();
         FadeContentDesc();
         
+        if (currentScrollY<currentWindowHeight) {
         titleScrollOpacity();
         titleScrollTop ();
+
+        }
         
 
         
