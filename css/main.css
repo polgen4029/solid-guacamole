@@ -51,11 +51,9 @@
 
     .title-background {
         position: absolute;
+        
 
         z-index: 1;
-
-        perspective: 1000px;
-
 
         display: flex;
         flex-direction: column;
@@ -63,9 +61,9 @@
         align-items: flex-start;
 
         opacity:1;
-        transition-duration: 1s;
 
-        scale: 0.8;
+
+        scale: 0.7;
     }
 
     .title-background.fadeout{
@@ -1543,6 +1541,11 @@ p {
         position: fixed;
         width: 100vw;
         height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
    .title img {
@@ -1560,19 +1563,15 @@ p {
 
         z-index: 1;
 
-        height: 100vh;
-        width: 100vw;
-
-        perspective: 1000px;
 
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
 
         opacity:1;
-        transition-duration: 1s;
+
 
         scale: 0.7;
         
@@ -1585,26 +1584,19 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 95px;
-        margin-left: -180px;
 
-        
-        animation: introTitleAni 1s forwards;
+        margin-bottom: 80px;
+
 
     }
     .secondfloor {
         display: flex;
         align-items: center;
         justify-content: center;
-
-        margin-bottom: -60px;
-        margin-top: -50px;
-        margin-left: 110px;
+     
 
 
-        animation: introTitleAni 1s forwards;
-        opacity: 0;
-        animation-delay: 0.3s;
+
 
     }
     .thirdfloor {
@@ -1612,12 +1604,9 @@ p {
         align-items: center;
         justify-content: center;
 
-        margin-bottom: 11vw;
-        margin-left: 110px;
+     
 
-        opacity: 0;
-        animation: introTitleAni 1s forwards;
-        animation-delay: 0.3s;
+
 
     
 
@@ -2846,14 +2835,13 @@ p {
 
     .title{
         position: fixed;
-        width: 100svw;
+        width: 100vw;
         height: 100lvh;
 
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-
-        z-index: -1;
+        justify-content: center;
     }
 
    .title img {
@@ -2867,21 +2855,14 @@ p {
     .title-background {
         position: absolute;
 
-
-        height: 100lvh;
-        width: 100svw;
-
-        perspective: 1000px;
-
-
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
 
         opacity:1;
 
-        scale: 0.6;
+        scale: 0.4;
         
 
     }
@@ -2891,40 +2872,24 @@ p {
     .firstfloor {
         display: flex;
         align-items: center;
-        justify-content: center;
-        margin-top: 95px;
-        margin-left: -180px;
-
+        justify-content: flex-start;
         
-        animation: introTitleAni 1s forwards;
+        margin-bottom: 80px;
 
     }
     .secondfloor {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
 
-        margin-bottom: -60px;
-        margin-top: -50px;
-        margin-left: 110px;
+       
 
-
-        animation: introTitleAni 1s forwards;
-        opacity: 0;
-        animation-delay: 0.3s;
 
     }
     .thirdfloor {
         display: flex;
         align-items: center;
-        justify-content: center;
-
-        margin-bottom: 11svw;
-        margin-left: 110px;
-
-        opacity: 0;
-        animation: introTitleAni 1s forwards;
-        animation-delay: 0.3s;
+        justify-content: flex-start;
 
     
 
@@ -4165,14 +4130,13 @@ p {
 
     .title{
         position: fixed;
-        width: 100svw;
+        width: 100vw;
         height: 100lvh;
 
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-
-        z-index: -1;
+        justify-content: center;
     }
 
    .title img {
@@ -4185,22 +4149,14 @@ p {
 
     .title-background {
         position: absolute;
-
-
-        height: 100lvh;
-        width: 100svw;
-
-        perspective: 1000px;
-
-
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
 
         opacity:1;
 
-        scale: 0.3;
+        scale: 0.15;
         
 
     }
@@ -4210,42 +4166,31 @@ p {
     .firstfloor {
         display: flex;
         align-items: center;
-        justify-content: center;
-        margin-top: 95px;
-        margin-left: -180px;
-
+        justify-content: flex-start;
         
-        animation: introTitleAni 1s forwards;
+        margin-bottom: 80px;
+
+
 
     }
     .secondfloor {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
 
-        margin-bottom: -60px;
-        margin-top: -50px;
-        margin-left: 110px;
+        
 
 
-        animation: introTitleAni 1s forwards;
-        opacity: 0;
-        animation-delay: 0.3s;
+
+
 
     }
     .thirdfloor {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
 
-        margin-bottom: 11svw;
-        margin-left: 110px;
-
-        opacity: 0;
-        animation: introTitleAni 1s forwards;
-        animation-delay: 0.3s;
-
-    
+      
 
     }
 
