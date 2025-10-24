@@ -155,12 +155,6 @@ function titleScrollTop () {
         
 })}
 
-{
-    window.onload = function() {
-        // 모든 이미지와 요소가 로드된 후 바디를 표시
-        document.body.classList.add('visible'); // 바디에 클래스 추가로 페이드 효과 적용
-    };
-}
 
 
 //Gearlist position 설정 
