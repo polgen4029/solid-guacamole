@@ -232,7 +232,7 @@
         width: 100vw;
         
         background:#FFF9D0;
-        margin-top: 98.4px;
+        margin-top: 12vw;
         
 
         display: flex;
@@ -245,14 +245,12 @@
 
     .introwave {
         position: absolute;
-        top:-94px;
+        top: -12vw;
         width: 100vw;
-        height: 98.4px;
-        background-image: url("../svg/Wave_Top.svg");
+        height: 12vw;
+        
+        display: block;
         background-size: cover;
-
-
-    
     }
 
 
@@ -920,12 +918,13 @@
     
 }
 .placewave{
-    width: 100vw;
-    height: 98.4px;
-    background-image: url(../svg/Wave_Vibe.svg);
-    background-size: cover;
     position: absolute;
-    top:-94px;
+        top: -12vw;
+        width: 100vw;
+        height: 12vw;
+        
+        display: block;
+        background-size: cover;
 
 
 }
@@ -1118,9 +1117,11 @@
 }
 
 table {
-  border-collapse: collapse;
+
+    border: 1px solid #F3F2EC;
+    border-collapse: collapse;
   
-  width: 70%;
+    width: 70%;
 }
 
 th, td {
@@ -1132,6 +1133,9 @@ th, td {
 
 }
 .table{
+
+    
+
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -1158,12 +1162,13 @@ th, td {
 }
 
 .workwave{
-    width: 100vw;
-    height: 98.4px;
-    background-image: url(../svg/Wave_Work.svg);
-    background-size: cover;
     position: absolute;
-    top:-94px;
+        top: -12vw;
+        width: 100vw;
+        height: 12vw;
+        
+        display: block;
+        background-size: cover;
 }
 
 .works{
@@ -1580,7 +1585,7 @@ p {
         width: 100vw;
         
         background:#FFF9D0;
-        margin-top: 98.4px;
+        margin-top: 20vh;
         
 
         display: flex;
@@ -1592,11 +1597,13 @@ p {
     }
 
     .introwave {
+        display: block;
         position: absolute;
-        top:-94px;
+
+        top:-20vh;
         width: 100vw;
-        height: 98.4px;
-        background-image: url("../svg/Wave_Top.svg");
+        height: 20vh;
+        
         background-size: cover;
 
         
@@ -2262,11 +2269,12 @@ p {
 }
 .placewave{
     width: 100vw;
-    height: 98.4px;
-    background-image: url(../svg/Wave_Vibe.svg);
+    height: 20vh;
     background-size: cover;
     position: absolute;
-    top:-94px;
+    top:-20vh;
+
+    display: block;
 
 
    
@@ -2458,7 +2466,7 @@ p {
 
 table {
   border-collapse: collapse;
-  
+  border: 1px solid #F3F2EC;
   width: 70%;
 }
 
@@ -2497,12 +2505,14 @@ th, td {
 }
 
 .workwave{
-    width: 100vw;
-    height: 98.4px;
-    background-image: url(../svg/Wave_Work.svg);
-    background-size: cover;
+    display: block;
     position: absolute;
-    top:-94px;
+
+    top:-20vh;
+    width: 100vw;
+    height: 20vh;
+        
+    background-size: cover;
 
     
 }
@@ -3799,7 +3809,7 @@ p {
 
 table {
   border-collapse: collapse;
-  
+  border: 1px solid #F3F2EC;
   width: 85%;
   margin: 0;
 }
@@ -4256,12 +4266,13 @@ p {
     }
 
     .introwave {
-        position: absolute;
+        
         top:-94px;
      
         width: 100vw;
         height: 98.4px;
 
+        position: absolute;
         display: block;
         background-size: cover;
     }
@@ -5132,7 +5143,7 @@ p {
 
 table {
   border-collapse: collapse;
-  
+  border: 1px solid #F3F2EC;
   width: 85%;
   margin: 0;
 }
