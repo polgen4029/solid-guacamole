@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", function() {
+  document.body.classList.add("loaded");
+});
+
+
 const fixViewportHeight = () => {
     const vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--fixed-vh', `${vh}px`);
