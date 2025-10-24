@@ -4062,7 +4062,7 @@ p {
         position: absolute;
         width: 100vw;
         height: calc(var(--fixed-vh) * 100);
-        background-size: cover;
+        object-fit: cover;
 
    }
 
