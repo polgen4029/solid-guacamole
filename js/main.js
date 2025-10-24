@@ -1,4 +1,13 @@
+const fixViewportHeight = () => {
+    const vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--fixed-vh', `${vh}px`);
+    };
 
+    // 최초 1회만 계산
+    fixViewportHeight();
+
+    // 만약 방향 전환(가로/세로) 시만 다시 계산하고 싶다면:
+    window.addEventListener('orientationchange', fixViewportHeight);
 
 
 {
