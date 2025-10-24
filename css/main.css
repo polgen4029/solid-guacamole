@@ -4239,7 +4239,7 @@ p {
     .studiomoto{
         
         
-        top:100lvh;
+        top:calc(var(--vh) * 100);
         position: relative;
         width: 100svw;
         
@@ -4270,29 +4270,6 @@ p {
 
     }
 
- 
-
-    .studiomoto> .introduction> .main {
-        
-        opacity: 0;
-        transition: opacity 2.5s ease;
-        
-        padding-left: 1.7vw;
-        padding-top: 7vw;
-        font-size: 1.4rem;
-        font-weight: 490;
-        line-height: 2;
-
-        font-family: "Gowun Batang", serif;
-
-        text-align: left;
-        word-break: keep-all;
-    }
-    .introduction> .main.visible {
-        opacity: 1;
-    }
-   
-    
 
     @keyframes numsil {
         0%{transform: translate3d(0,0,0);}
@@ -4306,14 +4283,6 @@ p {
         animation-duration: 0.45s;
     }
 
-    @keyframes smallnumsil {
-        0%{transform: translate3d(0,0,0);}
-        47%{transform: translate3d(0,8px,0);}
-        80%{transform: translate3d(0,-5px,0);}
-        88%{transform: translate3d(0,3px,0);}
-        95%{transform: translate3d(0,-2px,0);}
-        100%{transform: translate3d(0,0,0);}
-    }
     .menuchar.animate {
         animation: smallnumsil;
         animation-duration: 0.7s;
