@@ -5123,6 +5123,7 @@ table {
   border-collapse: collapse;
   border: 1px solid #f3f2ec49;
   width: 85%;
+  height: calc(var(--fixed-vh) * 40);
   margin: 0;
 }
 
@@ -5130,15 +5131,16 @@ th, td {
   border: 1px solid #f3f2ec49;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
   text-align: center;
 
-  font-weight: 300;
+  font-weight: 100;
 
 }
 .table{
     width: 100vw;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -5146,6 +5148,31 @@ th, td {
 
     word-break: keep-all;
 }
+.firstcol{
+    width:40%;
+}
+.secondol {
+    width: 30% 
+}
+.thirdcol {
+    width: 30%
+}
+
+.firstrow {
+    height: 21%;
+}
+.secondrow {
+    height: 23%;
+}
+.thirdrow {
+    height: 23%;
+}
+.fourthrow {
+    height: 23%;
+}
+
+
+
 .ratenotification{
 
     margin-top: 15px;
@@ -5218,15 +5245,7 @@ th, td {
 
 
 
-.firstcol{
-    width:40%;
-}
-.secondol {
-    width: 30% 
-}
-.thirdcol {
-    width: 30%
-}
+
 
 
 
