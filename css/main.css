@@ -3,7 +3,7 @@
 @media (min-width:1500px) {
 
     body {
-        background-color:#F3F2EC;
+        background-color:black;
         width: 100vw;
 
 
@@ -28,7 +28,7 @@
 
     body.loaded {
         opacity: 1;
-        background-color:black
+        background-color:black;
     }
 
  
@@ -1356,7 +1356,7 @@ p {
 @media (min-width: 1200px) and (max-width:1500px) {
 
     body {
-        background-color:#F3F2EC;
+        background-color:black;
         width: 100vw;
 
         margin-top: 0%;
@@ -1380,7 +1380,7 @@ p {
 
     body.loaded {
         opacity: 1;
-        background-color:black
+        background-color:black;
     }
 
 
@@ -2707,7 +2707,7 @@ p {
 @media (min-width: 700px) and (max-width: 1200px) {
 
     body {
-        background-color:#F3F2EC;
+        background-color:black;
         width: 100vw;
 
         margin-top: 0%;
@@ -2730,7 +2730,7 @@ p {
 
     body.loaded {
         opacity: 1;
-        background-color:black
+        background-color:black;
     }
 
 
@@ -4041,7 +4041,7 @@ p {
 @media (max-width: 700px) {
 
     body {
-        background-color:#F3F2EC;
+        background-color:black;
         width: 100vw;
 
         transition: opacity 0.5s ease;
@@ -5121,14 +5121,17 @@ p {
 
 table {
   border-collapse: collapse;
-  border: 1px solid #f3f2ec3b;
+  border: 1px solid #f3f2ec49;
   width: 85%;
   margin: 0;
 }
 
 th, td {
-  border: 1px solid #f3f2ec3b;
-  padding: 10px;
+  border: 1px solid #f3f2ec49;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
 
   font-weight: 300;
