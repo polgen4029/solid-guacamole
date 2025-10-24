@@ -21,72 +21,6 @@
 
 } */
 
-function FadeContentDesc () {
-    const currentScrollY = window.pageYOffset;
-    const currentWindowHeight = window.innerHeight;
-
-    const fadeWhy = document.getElementById("why");
-    const titlechar = document.querySelectorAll(".Mix_T");
-    const introarticle = document.getElementById("main");
-
-    //Why 나타나기
-    if (currentScrollY > (currentWindowHeight*0.3)) {
-        fadeWhy.classList.add("visible");
-    } else {
-        fadeWhy.classList.remove("visible");
-    }
-
-    //NUMSIL 글자들 나타나기
-    if (currentScrollY > (currentWindowHeight*0.3)) {
-        titlechar.forEach(titlechar =>
-        {titlechar.classList.add("visible")}
-        )
-    } else {
-        titlechar.forEach(titlechar =>
-        {titlechar.classList.remove("visible")}
-        );
-    }
-
-    
-    //소개글 나타나기
-    if (currentScrollY > (currentWindowHeight/2)) {
-        introarticle.classList.add("visible");
-    } else {
-        introarticle.classList.remove("visible");
-    }
-}
-
-
-
-function FadeContentMob () {
-    const currentScrollY = window.pageYOffset;
-    const currentWindowHeight = window.innerHeight;
-
-    const fadeWhy = document.getElementById("why");
-    const titlechar = document.querySelectorAll(".Mix_T");
-    const introarticle = document.getElementById("main");
-
-
-    //NUMSIL 글자들 나타나기
-    if (currentScrollY > (currentWindowHeight*0.3)) {
-        titlechar.forEach(titlechar =>
-        {titlechar.classList.add("visible")}
-        )
-    } else {
-        titlechar.forEach(titlechar =>
-        {titlechar.classList.remove("visible")}
-        );
-    }
-
-    
-    //소개글 나타나기
-    if (currentScrollY > (currentWindowHeight/2)) {
-        introarticle.classList.add("visible");
-    } else {
-        introarticle.classList.remove("visible");
-    }
-}
-
 
 
 function ScrollAniContent () {
@@ -106,6 +40,66 @@ function ScrollAniContent () {
         }
     }
 }
+
+
+//스크롤시 요소들 페이드인 페이드아웃
+{
+    const ScrollFades = document.querySelectorAll(".studio-introphoto, .discocontent, .mainarticle.lastwords ")
+    const titlechar = document.querySelectorAll(".Mix_T");
+
+
+
+    const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+    // 요소의 상단이 뷰포트 하단에 닿을 때
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+            else {
+                 entry.target.classList.remove('visible');
+            }
+        });
+        }, {
+        root: null,
+        rootMargin: "0px 0px -15% 0px", // 하단을 기준으로
+        threshold: 0
+        });
+
+        ScrollFades.forEach(el => observer.observe(el));
+        titlechar.forEach(el => observer.observe(el));
+
+}
+
+//페이드 인만
+{
+{
+    const ScrollFades = document.querySelectorAll(".placecontenttop, .why, .mainarticle, .placemainarticle, .works")
+
+
+
+
+    const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+    // 요소의 상단이 뷰포트 하단에 닿을 때
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+        }, {
+        root: null,
+        rootMargin: "0px 0px -10% 0px", // 하단을 기준으로
+        threshold: 0
+        });
+
+        ScrollFades.forEach(el => observer.observe(el));
+
+
+}
+
+
+}
+
+
 
 function titleScrollOpacity () {
     const titleView = document.querySelector(".title")
@@ -140,7 +134,7 @@ function titleScrollTop () {
         const currentWindowWidth = window.innerWidth;
 
         ScrollAniContent();
-        FadeContentDesc();
+       
         
         if (window.innerWidth >700 && currentScrollY<currentWindowHeight) {
         titleScrollOpacity();
@@ -198,7 +192,7 @@ function ClickHeightSet ()
 
 
     const gearlistHeight = gearlist.offsetHeight;
-    placeSize.style.height = `${window.innerHeight + gearlistHeight}px`
+    placeSize.style.height = `${window.innerHeight + gearlistHeight + 100}px`
     }
 
 function ClickHeightReset ()
@@ -206,10 +200,12 @@ function ClickHeightReset ()
     const placeSize = document.getElementById("placecontent");
     const gearlist = document.querySelector(".gearlistmenu");
     placeSize.removeAttribute("style");
-    console.log("a")
+
     //const gearlistHeight = gearlist.offsetHeight;
     //placeSize.style.height = `${placeSize.offsetHeight - gearlistHeight}px`
     }
+
+
 
 
 
@@ -320,7 +316,7 @@ function ClickRateHeightSet ()
     const gearlistHeight = gearlist.offsetHeight;
     placeSize.removeAttribute("style");
     
-    placeSize.style.height = `${window.innerHeight + gearlistHeight}px`
+    placeSize.style.height = `${window.innerHeight + gearlistHeight + 100}px`
     }
 
 function ClickRateHeightReset ()
